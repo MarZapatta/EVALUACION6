@@ -60,13 +60,13 @@ par(mfrow = c(2,2))
 ylm = c(min(iris$Sepal.Length,iris$Sepal.Width) ,
         max(iris$Sepal.Length,iris$Sepal.Width))
 
-boxplot(iris$Sepal.Length , xlab= "Edad" , main= "Cajas y bigotes para la variable Sepal.Lenght", range = 1.5 )
+boxplot(iris$Sepal.Length , xlab= "Sepal.Lenght" , main= "Cajas y bigotes para la variable Sepal.Lenght", range = 1.5 )
 #DIAGRAMA DE CAJAS Y BIGOTES PARA EDAD DE RANGO =0.5 Sepal.Lenght
-boxplot(iris$Sepal.Length , xlab= "Edad" , main= "Cajas y bigotes para la variable Sepal.Lenght", range = 0.5 )
+boxplot(iris$Sepal.Length , xlab= "Sepal.Lenght" , main= "Cajas y bigotes para la variable Sepal.Lenght", range = 0.5 )
 #DIAGRAMA DE CAJAS Y BIGOTES PARA EDAD DE RANGO =1.5 Sepal.Width
-boxplot(iris$Sepal.Width , xlab= "Edad" , main= "Cajas y bigotes para la variable Sepal.Width", range = 1.5 )
+boxplot(iris$Sepal.Width , xlab= "Sepal.Width" , main= "Cajas y bigotes para la variable Sepal.Width", range = 1.5 )
 #DIAGRAMA DE CAJAS Y BIGOTES PARA EDAD DE RANGO =0.5 Sepal.Width
-boxplot(iris$Sepal.Width , xlab= "Edad" , main= "Cajas y bigotes para la variable Sepal.width", range = 0.5 )
+boxplot(iris$Sepal.Width , xlab= "Sepal.Width" , main= "Cajas y bigotes para la variable Sepal.width", range = 0.5 )
 dev.off()
 
 #BOXPLOT SPECIES
